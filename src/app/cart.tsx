@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { View, Text, Platform } from 'react-native';
-import { useCart } from './providers/CartProvider';
+import { useCart } from '@/src/providers/CartProvider';
 
 const CartScreen = () => {
   const { items } = useCart();
